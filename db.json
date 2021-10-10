@@ -1,0 +1,89 @@
+{
+    "posts": [
+        {
+            "id": 0,
+            "title": "",
+            "description": "",
+            "authorId": 1,
+            "createTime": "March 6 2019",
+            "categogyId": 1,
+            "thumb": "",
+            "thumbSingle": "",
+            "content": ""
+        },
+        {
+            "id": 1,
+            "title": "I Was Trying To Daydream But My Mind Kept Wander.",
+            "description": "Aut maxime laboriosam.Harum occaecati et aut accusamus quia accusamus repellendus.In molestiae et totam dolor.Voluptatibus blanditiis totam.Aliquam odio rerum architecto magnam aliquid.",
+            "authorId": 1,
+            "createTime": "March 6 2019",
+            "categogyId": 1,
+            "thumb": "https://f.hubspotusercontent40.net/hubfs/20002096/21-Jul-05-2021-03-03-31-83-AM.jpg",
+            "thumbSingle": "https://f.hubspotusercontent40.net/hubfs/20002096/21-Jul-05-2021-03-03-31-83-AM.jpg",
+            "content": ""
+        },
+        {
+            "id": 2,
+            "title": "Life Is What Happens When You’re Busy Making",
+            "description": "Nulla quos deleniti facere molestiae repellat ex voluptatem.Eos rerum accusantium quo veritatis ipsa voluptatem.Culpa eius et voluptate perferendis doloremque amet ad est eum.Qui doloremque fuga sint culpa necessitatibus.",
+            "authorId": 2,
+            "createTime": "March 6 2019",
+            "categogyId": 2,
+            "thumb": "https://f.hubspotusercontent40.net/hubfs/20002096/45.jpg",
+            "thumbSingle": "https://f.hubspotusercontent40.net/hubfs/20002096/45.jpg",
+            "content": ""
+        },
+        {
+            "id": 3,
+            "title": "Believe That Life Is Worth Living And Your Belief",
+            "description": "Aut voluptatibus tenetur accusantium et maiores ipsum nostrum debitis corrupti.Quo et beatae.Earum corporis magni aperiam.",
+            "authorId": 1,
+            "createTime": "March 6 2019",
+            "categogyId": 3,
+            "thumb": "https://f.hubspotusercontent40.net/hubfs/20002096/12-Jul-05-2021-03-06-05-81-AM.jpg",
+            "thumbSingle": "https://f.hubspotusercontent40.net/hubfs/20002096/12-Jul-05-2021-03-06-05-81-AM.jpg",
+            "content": ""
+        },
+        {
+            "id": 4,
+            "title": "The Trick In Life Is Learning How To Deal With It.",
+            "description": "Aperiam nihil sequi placeat sequi est voluptas suscipit aut.Dicta voluptates error eos molestiae ea nihil odit molestiae.Rerum quia distinctio et doloremque dolor iste sapiente odit est.",
+            "authorId": 2,
+            "createTime": "March 6 2019",
+            "categogyId": 4,
+            "thumb": "https://f.hubspotusercontent40.net/hubfs/20002096/18-Jul-05-2021-03-06-50-12-AM.jpg",
+            "thumbSingle": "https://f.hubspotusercontent40.net/hubfs/20002096/18-Jul-05-2021-03-06-50-12-AM.jpg",
+            "content": ""
+        }
+    ],
+    "categoies": [
+        {
+            "id": 1,
+            "title": "fashion"
+        },
+        {
+            "id": 2,
+            "title": "life"
+        },
+        {
+            "id": 3,
+            "title": "lifestyle"
+        },
+        {
+            "id": 4,
+            "title": "health"
+        }
+    ],
+    "authors": [
+        {
+            "id": 1,
+            "title": "Kiarra Hauck",
+            "thumb": "https://f.hubspotusercontent40.net/hubfs/20002096/hannah-skelly-g5A9gO59ERU-unsplash-180x180-2.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Sigurd Willms",
+            "thumb": " https://secure.gravatar.com/avatar/662a272c8be177be19f47db7acac0cb9?s=180&d=mm&r=g"
+        }
+    ]
+}
