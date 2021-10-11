@@ -24,7 +24,8 @@
   "homepage": "https://github.com/tranphucthoai/fakeApiPosts01#readme",
   "dependencies": {
     "faker": "^5.5.3",
-    "json-server": "^0.17.0"
+    "json-server": "^0.17.0",
+    "query-string": "^7.0.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.13"
