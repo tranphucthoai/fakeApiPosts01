@@ -1,1 +1,7 @@
-GET http://localhost:3000/api/posts
+@baseUrl = http://localhost:3000/api
+
+# @name getAllPosts
+GET {{baseUrl}}/posts?_page=5&_limit=10
+
+# @name pagination
+
