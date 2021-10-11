@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon main.js",
-    "start": "node main.js"
+    "start": "npm run generate-data && node main.js",
+    "generate-data": "node generate-data.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/tranphucthoai/fakeApiPosts01#readme",
   "dependencies": {
+    "faker": "^5.5.3",
     "json-server": "^0.17.0"
   },
   "devDependencies": {
