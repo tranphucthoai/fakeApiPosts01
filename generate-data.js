@@ -39,8 +39,8 @@ const randomPosts = (categories, authors, n) => {
         for (const author of authors) {
             Array.from(new Array(n)).forEach(() => {
                 const post = {
-                    authorId: author.authorId,
-                    categoryId: category.authorId,
+                    authorId: author.id,
+                    categoryId: category.id,
                     id: faker.datatype.uuid(),
                     title: faker.lorem.sentence(),
                     description: faker.lorem.paragraph(),
