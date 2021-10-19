@@ -44,8 +44,8 @@ const randomPosts = (categories, authors, n) => {
                     id: faker.datatype.uuid(),
                     title: faker.lorem.sentence(),
                     description: faker.lorem.paragraph(),
-                    createAt: Date.now(),
-                    updateAt: Date.now(),
+                    createAt: faker.date.past(),
+                    updateAt: faker.date.past(),
                     thumb: faker.image.imageUrl(1920, 1080),
                     content: "",
                 };
