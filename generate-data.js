@@ -57,6 +57,20 @@ const randomPosts = (categories, authors, n) => {
     'https://f.hubspotusercontent40.net/hubfs/20002096/11-Jul-05-2021-03-29-29-69-AM.jpg',
     'https://f.hubspotusercontent40.net/hubfs/20002096/2.jpg',
     'https://f.hubspotusercontent40.net/hubfs/20002096/33-2.jpg',
+    'https://webcongnghe247.com/wp-content/uploads/2021/08/hinh-nen-may-tinh-dep-chu-de-thien-nhien-22-1400x788.jpg',
+    'https://hanoispiritofplace.com/wp-content/uploads/2017/12/thien-nhien-dep-15.jpg',
+    'https://hanoispiritofplace.com/wp-content/uploads/2017/12/hinh-nen-thien-nhien-4k-19.jpg',
+    'https://hanoispiritofplace.com/wp-content/uploads/2017/12/hinh-nen-thien-nhien-4k-62.jpg',
+    'https://upanh123.com/wp-content/uploads/2020/10/hinh-nen-thien-nhien-4k1-1.jpg',
+    'https://hanoispiritofplace.com/wp-content/uploads/2017/12/thien-nhien-dep-39.jpg',
+    'https://supperclean.vn/wp-content/uploads/2021/01/386f47c88a7aaa497ec6edc1c02cc9b6-scaled.jpg',
+    'https://i.pinimg.com/originals/25/95/e1/2595e124451e10fda4a61fa300af6b61.jpg',
+    'https://i.pinimg.com/originals/3d/c4/49/3dc449b04d9ace524a0ecd247e1fdc83.png',
+    'https://img5.thuthuatphanmem.vn/uploads/2021/08/25/hinh-nen-may-tinh-4k-anime_084703472.jpg',
+    'https://wallpaperaccess.com/full/2159510.jpg',
+    'https://wallpaperaccess.com/full/158939.jpg',
+    'https://i.pinimg.com/originals/32/fa/eb/32faeb43d120d7397e0e5bd79da69212.jpg',
+    'https://i.pinimg.com/originals/15/71/05/15710504898649f93190a5626de1a74c.jpg',
   ];
 
   for (const category of categories) {
