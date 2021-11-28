@@ -75,37 +75,82 @@ const randomPosts = (categories, authors, n) => {
 
   for (const category of categories) {
     for (const author of authors) {
-      for (const thumbTempalte of thumbList) {
-        Array.from(new Array(n)).forEach(() => {
-          const post = {
-            authorId: author.id,
-            categoryId: category.id,
-            id: faker.datatype.uuid(),
-            title: faker.lorem.sentence(),
-            description: faker.lorem.paragraph(),
-            createAt: faker.date.past(),
-            updateAt: faker.date.past(),
-            thumb: thumbTempalte,
-            content: '',
-          };
-          posts.push(post);
-        });
-      }
+      Array.from(new Array(n)).forEach(() => {
+        const post = {
+          authorId: author.id,
+          categoryId: category.id,
+          id: faker.datatype.uuid(),
+          title: faker.lorem.sentence(),
+          description: faker.lorem.paragraph(),
+          createAt: faker.date.past(),
+          updateAt: faker.date.past(),
+          thumb: '',
+          content: '',
+        };
+        posts.push(post);
+      });
     }
+  }
+
+  for (let i = 0; i < posts.length; i++) {
+    posts[i].thumb = thumbList[i];
   }
 
   return posts;
 };
 
+const mergeData = (posts, categories, authors) => {
+  const dataList = [];
+
+  function getAuthor(id) {
+    for (const author of authors) {
+      if (author.id == id) {
+        return author;
+      }
+    }
+  }
+
+  function getCategory(id) {
+    for (const category of categories) {
+      if (category.id == id) {
+        return category;
+      }
+    }
+  }
+
+  for (const post of posts) {
+    console.log('getAuthor', post);
+    Array.from(new Array(1)).forEach(() => {
+      const dataItem = {
+        authorName: getAuthor(post.authorId).name,
+        authorThumb: getAuthor(post.authorId).thumb,
+        dataId: post.id,
+        categoryName: getCategory(post.categoryId).name,
+        categoryColor: getCategory(post.categoryId).backgroundColor,
+        title: post.title,
+        description: post.description,
+        createAt: post.createAt,
+        updateAt: post.updateAt,
+        thumb: post.thumb,
+        content: post.content,
+      };
+      dataList.push(dataItem);
+    });
+  }
+  return dataList;
+};
+
 (() => {
   const authors = randomAuthors(3);
   const categories = randomCategories(3);
-  const posts = randomPosts(categories, authors, 1);
+  const posts = randomPosts(categories, authors, 4);
+  const data = mergeData(posts, categories, authors);
 
   const db = {
     categories: categories,
     posts: posts,
     authors: authors,
+    data: data,
   };
 
   fs.writeFile('db.json', JSON.stringify(db), () => {
