@@ -200,6 +200,8 @@ const randomPosts = (categories, authors, n) => {
         const post = {
           authorId: author.id,
           categoryId: category.id,
+          categoryName: category.name,
+          categoryColor: category.backgroundColor,
           id: faker.datatype.uuid(),
           title: faker.lorem.sentence(),
           description: faker.lorem.paragraph(),
