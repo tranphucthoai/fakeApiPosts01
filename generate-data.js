@@ -199,6 +199,8 @@ const randomPosts = (categories, authors, n) => {
       Array.from(new Array(n)).forEach(() => {
         const post = {
           authorId: author.id,
+          authorName: author.name,
+          authorThumb: author.thumb,
           categoryId: category.id,
           categoryName: category.name,
           categoryColor: category.backgroundColor,
