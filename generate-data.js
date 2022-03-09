@@ -126,7 +126,7 @@ const randomPosts = (categories, authors, n) => {
     'https://f.hubspotusercontent40.net/hubfs/20002096/33-2.jpg',
   ];
 
-  const contentFix = `<div className="main-content">
+  const contentFix = `<div class="main-content__inner">
   <p>
     Met to launch on the manufacturer’s new A330neo aircraft in
     2017, it’s offering lots of extra space, including wider
